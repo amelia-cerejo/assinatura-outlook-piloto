@@ -1,7 +1,7 @@
-/* Assinatura din�mica - Outlook Exchange Online. Sem bibliotecas externas. */
+/* Assinatura dinâmica - Outlook Exchange Online. Sem bibliotecas externas. */
 (function () {
   "use strict";
-  const NAME = "Am�lia Cerejo Lopes";
+  const NAME = "Amélia Cerejo Lopes";
   const PHONE = "966 165 804";
   function esc(v) {return String(v || "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
   function render(address) {
@@ -30,7 +30,7 @@
           readFrom();
         });
       } else {readFrom();}
-    } catch (err) {console.error('Assinatura din�mica:', err); finish(event);}
+    } catch (err) {console.error('Assinatura dinâmica:', err); finish(event);}
   }
   function onNewMessageComposeHandler(event) { update(event, true); }
   function onMessageFromChangedHandler(event) { update(event, false); }
