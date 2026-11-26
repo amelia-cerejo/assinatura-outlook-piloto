@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
- <Id>c9fbb5c7-4582-4d88-8c8e-3aac3380a729</Id><Version>0.1.0.0</Version><ProviderName>Cerejo</ProviderName><DefaultLocale>pt-PT</DefaultLocale>
+ <Id>c9fbb5c7-4582-4d88-8c8e-3aac3380a729</Id><Version>0.1.0.1</Version><ProviderName>Cerejo</ProviderName><DefaultLocale>pt-PT</DefaultLocale>
  <DisplayName DefaultValue="Assinatura Dinâmica Cerejo"/><Description DefaultValue="Assinatura que acompanha o remetente Exchange selecionado no Outlook."/>
  <IconUrl DefaultValue="https://amelia-cerejo.github.io/assinatura-outlook-piloto/assets/icon-32.png"/><HighResolutionIconUrl DefaultValue="https://amelia-cerejo.github.io/assinatura-outlook-piloto/assets/icon-80.png"/>
  <SupportUrl DefaultValue="https://amelia-cerejo.github.io/assinatura-outlook-piloto/taskpane.html"/>
